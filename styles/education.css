@@ -1,0 +1,267 @@
+.education__wrapper{
+	padding: 50px 50px;
+	background-color: #242424;
+	border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+
+}
+
+.education__main_text h2{
+    text-align: center;
+}
+.education__achievement_text h2{
+    text-align: center;
+}
+.education__school__image img {
+    max-width: 400px;
+    height: auto;
+    width: 100%;
+    border-radius: 6px;
+    transition: transform 0.3s ease; 
+}
+
+.education__school__image img:hover {
+    transform: scale(1.05); 
+}
+
+.education__school__context{
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #2F2F2F;
+    display: flex;
+    gap: 50px;
+    transition: transform 0.3s ease;
+}
+.education__school__context:hover {
+    transform: scale(1.05);
+}
+
+
+.education__school__text{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.education__school__text1{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.education__school__text2{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.education__school__text3{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.education__achievement_text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education__school__context li{
+    font-weight: bold;
+}
+.education__content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.education__school__text li{
+    list-style: disc;
+}
+.education__school__text1 li{
+    list-style: disc;
+}
+.education__school__text2 li{
+    list-style: disc;
+}
+.education__school__text3 li{
+    list-style: disc;
+}
+
+.education__achievement_text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #555;
+    color: #fff;
+    padding: 20px !important; 
+    text-transform: uppercase;
+    font-weight: bold !important; 
+}
+
+td {
+    padding: 18px !important; 
+    text-align: center;
+}
+
+
+tbody tr {
+    background-color: #444;
+}
+
+@media (max-width: 1044px){
+    .education__school__context li{
+        line-height: 19px;
+    }
+    .education__school__image img {
+        max-width: 350px;
+        height: auto;
+        width: 100%;
+        
+    
+    }
+    .education__school__text{
+        max-width: 300px;
+        width: 100%;
+    }
+    .education__school__text1{
+        max-width: 300px;
+        width: 100%;
+    }
+    .education__school__text2{
+        max-width: 300px;
+        width: 100%;
+    }
+    .education__school__text3{
+        padding-top: 30px;
+        max-width: 300px;
+        width: 100%;
+    }
+}
+ 
+
+ @media (max-width: 824px){
+    .education__school__text2 {
+        padding-top: 20px;
+    }
+    .education__school__text3{
+        padding-top: 20px;
+        max-width: 300px;
+        width: 100%;
+    }
+
+} 
+
+@media (max-width: 784px){
+    .education__school__context h3{
+        font-size: 20px;
+    }
+    .education__school__context h4{
+        font-size: 15px;
+    }
+    .education__school__context li{
+        font-size: 12px;
+    }
+
+    .education__school__text{
+   
+        gap: 15px;
+    }  
+    .education__school__text1{
+      
+        gap: 15px;
+    } 
+    .education__school__text2{
+        
+        gap: 15px;
+    }  
+    .education__school__text3{
+       
+        gap: 15px;
+    } 
+}
+
+@media(max-width: 730px){
+    .education__school__text{
+        padding-top: 20px;
+    }  
+    .education__school__text1{
+        padding-top: 20px;
+    } 
+    .education__school__text2{
+        padding-top: 5px;
+    }  
+    .education__school__text3{
+        padding-top: 5px;
+    } 
+}
+
+@media(max-width: 669px){
+    .education__school__context{
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .education__school__context h3{
+        font-size: 30px;
+    }
+    .education__school__context h4{
+        font-size: 25px;
+    }
+    .education__school__context li{
+        font-size: 16px;
+    }
+      
+}
+
+
+@media (max-width: 426px){
+    .education__achievement_text th{
+        padding: 14px !important; 
+        font-size: 12px;
+    }
+
+    .education__achievement_text td{
+        padding: 14px !important; 
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 349px){
+    .education__achievement_text th{
+        font-size: 9px;
+    }
+
+    .education__achievement_text td{
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 423px){
+    .education__school__context h3{
+        font-size: 25px;
+    }
+    .education__school__context h4{
+        font-size: 20px;
+    }
+    .education__school__context li{
+        font-size: 12px;
+    }
+}
