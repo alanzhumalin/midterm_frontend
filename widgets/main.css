@@ -106,6 +106,29 @@ h5{
 	font-size: 15px;
 	font-weight: 300;
 }
+@media (max-width: 10000px){
+	.header_burger_button{
+		display: none;
+	}
+}
+
+@media (max-width: 490px){
+	.header__nav ul{
+		display: none;
+	}
+	.header__wrapper{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.header_burger_button{
+		display: block;
+	}
+	.header_burger_button img{
+		max-width: 45px;
+		width: 100%;
+		
+	}
+}
 
 @media (max-width: 343px){
 	.header__nav ul{
